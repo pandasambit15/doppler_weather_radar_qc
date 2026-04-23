@@ -55,10 +55,10 @@ dwr-qc/
 Indian DWR Level-2 NetCDF data are distributed by **MOSDAC** (Meteorological and Oceanographic Satellite Data Archival Centre), operated by the Space Applications Centre (SAC), ISRO.
 
 - **Portal:** [https://mosdac.gov.in/](https://mosdac.gov.in/)
-- **Product:** IMD Doppler Weather Radar – Level-2 (Base/Derived moments in NetCDF)
+- **Product:** Doppler Weather Radar – Level-2 (Base/Derived moments in NetCDF)
 - Access requires registration on the MOSDAC portal. Dataset links can be updated in `data/README.md`.
 
-> **Citation:** If you use IMD DWR data in your research, please acknowledge MOSDAC:
+> **Citation:** If you use Indian DWR data (especially from MOSDAC) in your research, please acknowledge MOSDAC:
 > *"DWR Level-2 data were obtained from the MOSDAC data portal (https://mosdac.gov.in/), operated by SAC/ISRO, India."*
 
 ---
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 
 ### Batch quality control (recommended)
 
-Place your raw IMD NetCDF files in `INPUT_DATA/` (or update the path in the script), then:
+Place your raw DWR NetCDF files in `INPUT_DATA/` (or update the path in the script), then:
 
 ```bash
 python scripts/quality_control_imd_multiproc.py
@@ -185,7 +185,7 @@ See [`requirements.txt`](requirements.txt) for the full pinned list. Core depend
 
 | Notebook | Description |
 |---|---|
-| [`01_quickstart_demo.ipynb`](notebooks/01_quickstart_demo.ipynb) | Load a single IMD NetCDF file, apply QC, and visualise PPI plots |
+| [`01_quickstart_demo.ipynb`](notebooks/01_quickstart_demo.ipynb) | Load a single DWR NetCDF file, apply QC, and visualise PPI plots |
 
 ---
 
@@ -203,6 +203,6 @@ This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for det
 
 ## 🙏 Acknowledgements
 
-- **MOSDAC / SAC / ISRO** for providing IMD DWR Level-2 data via the [MOSDAC portal](https://mosdac.gov.in/).
+- **MOSDAC / SAC / ISRO** for providing DWR Level-2 data via the [MOSDAC portal](https://mosdac.gov.in/).
 - The **[wradlib](https://docs.wradlib.org/)** development team for the open-source radar processing library.
 - The **[Py-ART](https://arm-doe.github.io/pyart/)** team at ARM/DOE.
