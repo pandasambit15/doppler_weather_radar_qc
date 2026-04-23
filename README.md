@@ -1,6 +1,6 @@
 # 🌩️ DWR Processing Toolkit
 
-A Python toolkit for reading, quality-controlling, and processing **Doppler Weather Radar (DWR)** data from the India Meteorological Department (IMD). The toolkit handles both **single-polarisation** and **dual-polarisation** radar products and is designed to work with the NetCDF format distributed by [MOSDAC (Meteorological and Oceanographic Satellite Data Archival Centre)](https://mosdac.gov.in/).
+A Python toolkit for reading, quality-controlling, and processing **Doppler Weather Radar (DWR)** data from the Indian region (currently for datasets availaible from MOSDAC). The toolkit handles both **single-polarisation** and **dual-polarisation** radar products and is designed to work with the NetCDF format distributed by [MOSDAC (Meteorological and Oceanographic Satellite Data Archival Centre)](https://mosdac.gov.in/).
 
 ---
 
