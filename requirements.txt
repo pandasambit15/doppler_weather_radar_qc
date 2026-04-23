@@ -1,0 +1,20 @@
+# Core radar processing libraries
+wradlib>=1.19.0
+arm_pyart>=1.12.0
+
+# Scientific computing
+numpy>=1.23.0
+scipy>=1.9.0
+matplotlib>=3.6.0
+
+# Geospatial
+# NOTE: GDAL often requires system-level installation.
+# See README.md for platform-specific installation instructions.
+gdal>=3.4.0
+
+# NetCDF / HDF5 I/O (typically pulled in by wradlib, listed explicitly for clarity)
+netCDF4>=1.6.0
+h5py>=3.7.0
+
+# Utilities
+pathlib2>=2.3.7; python_version < "3.4"   # backport — not needed for Python >= 3.4
